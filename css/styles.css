@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,600;1,600&display=swap');
+
+:root {
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+    /* Neutral */
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    /* Headings */
+    --font-Poppins: 'Poppins', sans-serif;
+    --weigt-poppins: 600;
+    /* Body, Call-to-actions */
+    --font-Open: 'Open Sans', sans-serif;
+    --weigt-1-Open: 400;
+    --weigt-2-Open: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-Open);
+    font-weight: var(--weigt-2-Open);
+    font-size: 18px;
+    height: 3186px;
+    width: 1440px;
+    margin: auto auto;
+    display: grid;
+    grid-template-rows: 721px 1905px 560px;
+}
+
+.first-content {
+    background: var(--Very-Pale-Cyan);
+}
+
+main {
+    margin: 48px 80px 72px 80px;
+    display: grid;
+    grid-template-rows: 48px 553px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 72px;
+    border: solid red;
+    display: grid;
+    grid-template-columns: 590px 680px;
+    grid-template-rows: 482px;
+}
+
+.get-started {
+    display: flex;
+    align-items: center;
+}
+
+.get-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-content > h1 {
+    margin-bottom: 51px;
+    width: 440px;
+}
+
+.get-content > p {
+    margin-bottom: 34px;
+    width: 511px;
+}
+
+.get-content > a {
+    height: 56px;
+    width: 280px;
+    border: solid red;
+}
+
+
+.content > img {
+    max-width: 100%;
+    max-height: 99%;
+}
+/* 
+
+header {
+    height: 48px;
+    width: 100%;
+    margin-bottom: 71px;
+}
+
+
+
+} */
+
+
+
+
+/* 
+
+
+.second-content {
+    height: 1905px;
+}
+
+.three-cards {
+    margin: 160px auto 320px auto;
+    min-height: 1400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.box {
+    border-radius: 10px;
+    height: 440px;
+    width: 1230px;
+    margin: auto;
+    box-shadow: 0 0 20px var(--Grayish-Blue);
+}
+
+.footer {
+    height: 560px;
+    background: var(--Very-Dark-Cyan);
+} */
