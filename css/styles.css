@@ -94,22 +94,30 @@ main {
     height: 1905px;
 }
 
-.box {
+.three-cards > .box {
     border-radius: 10px;
     height: 440px;
     width: 1230px;
     margin: auto;
-    padding: 53px 0;
+    padding: 53px 0 53px 121px;
     box-shadow: 0 0 20px var(--Grayish-Blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .box > img {
     max-height: 333px;
 }
 
-.box > .text {
-    margin: ;
-}
+/* .three-cards > .box > .text {
+    padding-left: 121px;
+} */
+
+/* .grow, .flowing {
+    display: flex;
+} */
+
 
 .footer {
     height: 560px;
