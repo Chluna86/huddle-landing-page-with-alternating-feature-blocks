@@ -155,27 +155,35 @@ main {
     flex-direction: row-reverse;
 }
 
+.ready {
+    width: 800px;
+    height: 280px;
+    margin: 120px 320px;
+    background-color: white;
+    box-shadow: 0 0 7px 0 hsla(209, 11%, 55%, 0.404);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-text > .get-button {
+    margin-top: 48px;
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    color: aliceblue;
+}
 
 .footer {
     height: 560px;
     background: var(--Very-Dark-Cyan);
 } 
-
-/* 
-
-header {
-    height: 48px;
-    width: 100%;
-    margin-bottom: 71px;
-}
-
-
-.three-cards {
-    margin: 160px auto 320px auto;
-    min-height: 1400px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-}
-*/
-
