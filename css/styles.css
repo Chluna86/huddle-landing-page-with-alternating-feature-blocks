@@ -99,25 +99,35 @@ main {
     height: 440px;
     width: 1230px;
     margin: auto;
-    padding: 53px 0 53px 121px;
+    padding: 53px 32px 53px 121px;
     box-shadow: 0 0 20px var(--Grayish-Blue);
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .box > img {
     max-height: 333px;
 }
 
-/* .three-cards > .box > .text {
-    padding-left: 121px;
-} */
+.text > h2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
 
-/* .grow, .flowing {
+.text > p {
+    max-width: 470px;
+    font-size: 1rem;
+    letter-spacing: 0.47pt;
+    line-height: 1.5;
+    color: var(--Grayish-Blue);
+    font-weight: var(--weigt-1-Open);
+}
+.grow, .users {
     display: flex;
-} */
-
+    flex-direction: row-reverse;
+}
 
 .footer {
     height: 560px;
