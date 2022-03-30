@@ -175,8 +175,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
 }
 
 .button-text > .get-button {
@@ -186,6 +184,10 @@ main {
     border-radius: 50px;
     color: aliceblue;
     box-shadow: 0 0 8px 0 hsla(209, 11%, 55%, 0.404);
+}
+/* FOOTER STYLES */
+li {
+    color: aliceblue;
 }
 
 .footer {
@@ -203,6 +205,14 @@ main {
     grid-template-columns: 442px 235px 235px 239px;
 }
 
-li {
-    color: aliceblue;
+.location, .tel, .email {
+    display: grid;
+    grid-template-columns: 31px 334px;
+}
+
+
+
+.social-medias > svg {
+    
+    width: 50px;
 }
