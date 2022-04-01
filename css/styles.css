@@ -67,6 +67,10 @@ main {
     align-items: center;
 }
 
+.try-button:active {
+    color: var(--Grayish-Blue);
+}
+
 .content {
     margin-top: 72px;
     display: grid;
@@ -104,12 +108,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .get-button > a {
     color: aliceblue;
     font-size: 0.95rem;
+}
+
+.get-button:active {
+    opacity: 0.7;
 }
 
 .content > img {
@@ -249,9 +256,27 @@ ul > * {
     margin-bottom: 30px;
 }
 
-.social-medias > svg {
-    width: 50px;
+li > a {
+    color: white;
+}
+
+li > a:active {
+    text-decoration: underline;
+}
+
+
+.social-medias > a > svg {
+    width: 32px;
     fill: aliceblue;
+    border: solid 1.5px white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.social-medias > a > svg:active {
+    fill: var(--Pink);
+    border: solid 1.5px var(--Pink);
 }
 
 .copy {
